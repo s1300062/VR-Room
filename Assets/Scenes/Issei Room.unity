@@ -2390,7 +2390,7 @@ PrefabInstance:
     - target: {fileID: -8785101719605082520, guid: 040679849cb6644088541311b2ffede8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.26
+      value: -7.63
       objectReference: {fileID: 0}
     - target: {fileID: -8785101719605082520, guid: 040679849cb6644088541311b2ffede8,
         type: 3}
@@ -2420,7 +2420,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 040679849cb6644088541311b2ffede8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.2494564
+      value: 2.884
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 040679849cb6644088541311b2ffede8,
         type: 3}
@@ -3823,7 +3823,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729751925}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e2f4617667341945b5a7756e14b62d0, type: 3}
   m_Name: 
@@ -3936,7 +3936,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729751925}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 9dfce9feba2bb554faaad677ef18812b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3948,7 +3948,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -593053110101353100, guid: 040679849cb6644088541311b2ffede8, type: 3}
 --- !u!114 &1729751933
@@ -4061,17 +4061,17 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
   m_TrackPosition: 1
-  m_SmoothPosition: 0
+  m_SmoothPosition: 1
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
   m_TrackRotation: 1
-  m_SmoothRotation: 0
+  m_SmoothRotation: 1
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
   m_TrackScale: 1
@@ -4129,7 +4129,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!1001 &1735458519
 PrefabInstance:
   m_ObjectHideFlags: 0
